@@ -1,17 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rehaan Khan - Portfolio</title>
-  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+{
+        "Version": "2008-10-17",
+        "Id": "PolicyForCloudFrontPrivateContent",
+        "Statement": [
+            {
+                "Sid": "AllowCloudFrontServicePrincipal",
+                "Effect": "Allow",
+                "Principal": {
+                    "Service": "cloudfront.amazonaws.com"
+                },
+                "Action": "s3:GetObject",
+                "Resource": "arn:aws:s3:::rehaankhan1-portfolio/*",
+                "Condition": {
+                    "StringEquals": {
+                      "AWS:SourceArn": "arn:aws:cloudfront::772498065547:distribution/E3PA233NS5S4XD"
+                    }
+                }
+            }
+        ]
+      }
 
   <header class="nav">
     <div class="brand">Rehaan Khan</div>
@@ -53,8 +59,8 @@
 
   <footer id="contact">
     <p>
-      &copy; 2025 Your Name - 
-      <a href="mailto:you@example.com">you@example.com</a>
+      &copy; 2026 Rehaan Khan - 
+      <a href="mailto:you@example.com">rehaankhan2207@gmail.com</a>
     </p>
   </footer>
 
