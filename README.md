@@ -2,7 +2,7 @@ AWS Static Portfolio Website Deployment
 A highly resilient, globally distributed, and secure static single-page portfolio hosted on AWS and delivered over HTTPS.  
 
 Live Deployment Link
-Secure CDN URL: https://d1eqmul0kkczwg.cloudfront.net
+Secure CDN URL: https://d1eqmut0kkczwg.cloudfront.net
 
 GitHub Code Repository:(https://github.com/RehaanKhan2207/rehaankhan-portfolio)
 
