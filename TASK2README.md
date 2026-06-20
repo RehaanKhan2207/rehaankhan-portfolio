@@ -15,6 +15,7 @@ A custom configuration file (`Dockerfile`) was written to package the applicatio
 FROM nginx:alpine
 COPY . /usr/share/nginx/html
 EXPOSE 80
+
 Tested locally by building the image and mapping the internal Nginx application port to host port 8080:
 
 Bash
