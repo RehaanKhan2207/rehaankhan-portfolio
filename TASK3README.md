@@ -24,8 +24,3 @@ Pull and execute the automated artifact directly from any network host using:
 ```bash
 docker pull rehaankhan/portfolio-website:latest
 docker run -d -p 8081:80 rehaankhan/portfolio-website:latest
-Save and push it to GitHub:
-```bash
-git add TASK3README.md
-git commit -m "docs: add comprehensive Task 3 documentation"
-git push origin main
