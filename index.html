@@ -1,23 +1,13 @@
-{
-        "Version": "2008-10-17",
-        "Id": "PolicyForCloudFrontPrivateContent",
-        "Statement": [
-            {
-                "Sid": "AllowCloudFrontServicePrincipal",
-                "Effect": "Allow",
-                "Principal": {
-                    "Service": "cloudfront.amazonaws.com"
-                },
-                "Action": "s3:GetObject",
-                "Resource": "arn:aws:s3:::rehaankhan1-portfolio/*",
-                "Condition": {
-                    "StringEquals": {
-                      "AWS:SourceArn": "arn:aws:cloudfront::772498065547:distribution/E3PA233NS5S4XD"
-                    }
-                }
-            }
-        ]
-      }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehaan Khan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
   <header class="nav">
     <div class="brand">Rehaan Khan</div>
@@ -45,7 +35,7 @@
     </article>
     
     <article class="card">
-      <div class="project-icon-wrapper"><i class="fa-solid fa-container-storage"></i></div>
+      <div class="project-icon-wrapper"><i class="fa-solid fa-cubes"></i></div>
       <h3>Project B</h3>
       <p>Short description. Tech: Docker, CI.</p>
     </article>
@@ -60,7 +50,7 @@
   <footer id="contact">
     <p>
       &copy; 2026 Rehaan Khan - 
-      <a href="mailto:you@example.com">rehaankhan2207@gmail.com</a>
+      <a href="mailto:rehaankhan2207@gmail.com">rehaankhan2207@gmail.com</a>
     </p>
   </footer>
 
